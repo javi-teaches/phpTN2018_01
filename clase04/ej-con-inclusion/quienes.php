@@ -1,0 +1,9 @@
+<?php
+	require_once('includes/head.php');
+?>
+	<body>
+		<?php
+			require_once('includes/header-nav.php');
+		?>
+	</body>
+</html>
