@@ -1,15 +1,15 @@
 <?php
-	$hash1 = password_hash("Hola", PASSWORD_DEFAULT);
-	$hash2 = password_hash("Chau", PASSWORD_DEFAULT);
-
-	var_dump($hash1);
-	echo "<br>";
-	var_dump($hash2);
-	echo "<br>";
-
-	if (password_verify($_POST['password'], $hash1)) {
-		echo "Si son iguales";
-	}
+	// $hash1 = password_hash("Hola", PASSWORD_DEFAULT);
+	// $hash2 = password_hash("Chau", PASSWORD_DEFAULT);
+	//
+	// var_dump($hash1);
+	// echo "<br>";
+	// var_dump($hash2);
+	// echo "<br>";
+	//
+	// if (password_verify($_POST['password'], $hash1)) {
+	// 	echo "Si son iguales";
+	// }
 
 	// echo password_verify("Chau", $hash2);
 

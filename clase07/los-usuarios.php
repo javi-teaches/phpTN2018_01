@@ -18,13 +18,13 @@
 		<title>Usuarios</title>
 	</head>
 	<body>
-		<?php foreach ($usuariosFinales as $elUsuario): ?>
-			<?php if ($elUsuario['nombre'] == 'Goku'): ?>
+		<?php foreach ($usuariosFinales as $elUsuario):
+			if ($elUsuario['nombre'] == 'Goku'): ?>
 				<h1>Hola <?=$elUsuario['nombre']?></h1>
-			<?php endif; ?>
-		<?php endforeach; ?>
+			<?php endif;
+		endforeach; ?>
 
-		<ul>			
+		<ul>
 			<?php foreach ($usuariosFinales as $elUsuario): ?>
 				<li><?=$elUsuario['nombre'] . ' - ' . $elUsuario['email']?></li>
 			<?php endforeach; ?>
