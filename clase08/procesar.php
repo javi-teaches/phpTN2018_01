@@ -24,6 +24,7 @@
 					$newFiles[] = substr($imagen, 0, -4);
 				}
 
+
 				// Armo el nombre de la imagen que están tratando de subir (sin la extensión)
 				$imagenActual = 'images/' . $_POST['email'];
 
