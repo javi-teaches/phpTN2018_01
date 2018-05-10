@@ -11,8 +11,6 @@
 	catch( PDOException $Exception ) {
 		$error = true;
 	}
-
-
 ?>
 <!DOCTYPE html>
 <html>
